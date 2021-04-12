@@ -1,0 +1,33 @@
+#formulario {
+    width: 300px;
+    position: absolute;
+    right: 40%;
+    top: 10%;
+    
+}
+
+#fieldset {
+    height: 285px;
+    
+}
+
+body {
+    background-color: darkturquoise;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 3px;
+}
+
+input:focus {
+    background-color: gray;
+}
+
+fieldset {
+    background-color: yellow;
+}
+
+h1 {
+    text-align: center;
+}

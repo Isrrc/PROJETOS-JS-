@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    
+    function chamar(){
+    let nome = "Israel Ricardo Correia";
+    /*alert(nome.replace("Correia","Avião").replace("Israel","Claudio").replace("Ricardo","Davi"));*/
+    /*alert(nome.toUpperCase());*/
+    /*alert(nome.substring(2,6));*/
+    /*alert(nome.substr(2,6));*/
+    /*alert(nome.trim());
+    alert(nome);*/
+    /*alert(nome.length)*/
+    /*alert(nome.charAt(5));*/
+
+    let paises = ["Brasil","Argentina","Uruguai","Japão","EUA"];
+    /*for(let i = 0; i < paises.length; i++){
+        alert(paises[i])
+    }*/
+
+    let i = 0;
+    /*while(i < paises.length){
+        alert(paises[i]);
+        i++;
+    }*/
+
+    /*do{
+        alert(paises[i]);
+        i++;
+    } while(i < paises.length);*/
+
+    let numeros = [12,5,34,8];
+    let numMenor = parseInt(numeros[0]);
+    for(let i = 1; i < numeros.length; i++){
+
+            if(numMenor > parseInt(numeros[i])){
+                numMenor = parseInt(numeros[i]);
+            }
+        
+    } 
+    alert(numMenor)
+
+    
+   
+
+
+
+
+    }
+
+     function somaDoisNumeros(num1,num2){
+        let resultado = +num1 + num2;
+        return resultado;
+     }
+
+
+</script>
+</head>
+<body>
+    <input type="button" onclick="chamar()" value="chamar">
+</body>
+</html>

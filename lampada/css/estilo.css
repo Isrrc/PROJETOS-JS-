@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+
+
+#imagem {
+    width: 350px;
+    height: 500px;
+    display: block;
+    margin: 20px auto;
+    
+}

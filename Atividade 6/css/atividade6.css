@@ -1,0 +1,15 @@
+    fieldset {
+    width: 200px;
+    position: absolute;
+    left: 43%;
+    top:30%;
+    background-color: aquamarine;
+    }
+
+    input:focus {
+        background-color: aqua;
+    }
+
+    body {
+        background-color:cadetblue;
+    }

@@ -1,0 +1,20 @@
+
+#seta:hover {
+    background-color:gainsboro;
+}
+img {
+    width: 70%;
+    height: 100%;
+}
+
+table {
+    float: right;
+}
+
+#seta {
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    right: 13%;
+    top: 50%;
+}

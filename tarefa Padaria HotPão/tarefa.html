@@ -1,0 +1,53 @@
+<html>
+
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/tarefa.css" media="all"/>
+        <script type="text/javascript" src="js/tarefa.js"></script>
+    </head>
+
+    <body>
+        <h1>Israel Correia</h1>
+        <form id="formulario">
+            <fieldset>
+                <legend>Padaria HotPão</legend>
+
+                <fieldset>
+                    <legend>Valores</legend>
+                    <label for="valorPao">Valor Pão:</label>
+                    <input type="text" value="0.12" name="valorPao"/>
+
+                    <label for="valorBroa">Valor Broa:</label>
+                    <input type="text" value="1.50" name="valorBroa"/>
+                </fieldset>
+
+            <fieldset>
+                <legend>Saídas:</legend>
+                <label for="pao">Quant. Pão Frânces:</label>
+                <input type="text" name="pao"/>
+
+                <label for="broa">Quant. Broas:</label>
+                <input type="text" name="broa"/>
+             </fieldset> 
+
+            <fieldset>
+                <legend>Lucro Diário</legend>
+                <label for="resultado">Lucro:</label>
+                <input type="text" name="lucro" disabled="disabled "/>
+
+                <label for="resultado">10% do Lucro:</label>
+                <input type="text" name="teste" disabled="disabled "/>
+            </fieldset>
+
+                <input type="button" onclick="calcular()" value ="Calcular"/>
+                
+
+            </fieldset>
+
+        </form>
+
+    </body>
+
+
+</html>

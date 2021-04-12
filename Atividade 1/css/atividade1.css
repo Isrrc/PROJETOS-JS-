@@ -1,0 +1,15 @@
+#formulario {
+    position: absolute;
+    width: 200px;
+    right: 45%;
+    top: 30%;
+    
+}
+body{
+    background-color:grey;
+}
+
+fieldset {
+    height: 200px;
+    background-color: teal;
+}

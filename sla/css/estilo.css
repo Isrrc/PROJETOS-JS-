@@ -1,0 +1,132 @@
+div {
+  
+}
+
+#header {
+	color:white;
+	text-align:center;
+	font-size:36px;
+	height:50px;
+	
+}
+
+#conteiner {
+	width:1350px;
+	margin:0 auto;
+	background-image: url(../Imagens/streefigther.jpg);
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+#left {
+	float:left;
+	width:250px;
+    height:700px;
+	
+}
+
+#content {
+  float:right;
+  width:1096px;
+  height:700px;
+}
+
+#principal {
+	background-image: url(../Imagens/streefigther2.jpg);
+	float:left;
+	width:700px;
+	height:400px;
+	border:2px solid black;
+	background-size:100%;
+	position:absolute;
+	left:450px;
+	right:0;
+	top:350px;
+	
+}
+
+
+#right {
+	float:right;
+	width:392px;
+	height:700px;
+	word-spacing:5px;
+	line-height:40px;
+	font-size:26px;
+}
+
+
+#footer {
+	font-size:16px;
+	height:30px;
+	clear:both;
+	
+}
+
+#tabela {
+	
+	left:350px;
+	right:0;
+	top:50px;
+    position:absolute
+}
+ 
+ td { 
+	 text-align:center;
+	 font-weight:bold;
+	
+ }
+ 
+ #produto, #valor {
+	 background-color:black;
+	 color:white;
+ }
+ td:hover {
+	 background-color:white;
+	 color:black
+ }
+ 
+ li {
+	 padding:30px;
+	 width:500px;
+	 color:red;
+ }
+ 
+ a:visited {
+	 color:orange;
+ }
+ 
+ a:link {
+	 color:orange;
+ }
+ 
+ #h21 {
+	 text-align:center;
+	 color:white;
+ }
+ 
+ #titulo {
+	 border-bottom:2px solid black;
+ }
+ 
+ #titulo2 {
+	 color:black;
+	 position:absolute;
+	 left:471px;
+	 right:o;
+ }
+
+#h2 {
+	position:relative;
+	left:2;
+	right:0;
+	bottom:47px;
+	text-align:center;
+	color:red;
+}
+
+#rodape {
+	position:relative;
+	left:940px;
+	right:0;
+}

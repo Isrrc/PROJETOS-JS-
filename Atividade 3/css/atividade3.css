@@ -1,0 +1,14 @@
+form {
+    width: 200px;
+    position: absolute;
+    left: 43%;
+    top: 10%;
+}
+
+body {
+    background-color: gray;
+}
+
+fieldset {
+    background-color:lightblue;
+}

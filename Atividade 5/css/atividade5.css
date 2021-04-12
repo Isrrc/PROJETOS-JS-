@@ -1,0 +1,15 @@
+fieldset {
+    width: 200px;
+    position: absolute;
+    left: 40%;
+    top:30%;
+    background-color: darkturquoise;
+}
+
+body {
+    background-color: lightgray;
+}
+
+input:focus {
+    background-color: lightblue;
+}

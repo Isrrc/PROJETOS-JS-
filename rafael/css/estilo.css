@@ -1,0 +1,65 @@
+div {
+    border:2px solid black;
+}
+
+#conteiner {
+    width: 1350px;
+    background-color:white;
+    margin: 0 auto;
+}
+
+#header {
+    
+    height: 50px;
+}
+
+#left {
+    height: 500px;
+    background-color: chartreuse;
+    width: 250;
+    float: left;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px;
+   
+}
+
+#content {
+    height: 700px;
+    float: right;
+    width:1088;
+}
+
+#principal {
+ width: 692px;
+ height: 700px;
+ float: left;
+
+ 
+}
+
+#right {
+width: 388px;
+height: 700px;
+float: right;
+
+}
+
+li {
+    padding:30px;
+    width:500px;
+    color:red;
+}
+
+h2 {
+    text-align: center;
+}
+
+#footer {
+   
+    height: 30px;
+    clear:both;
+}
+

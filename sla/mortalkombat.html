@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> </title>
+	<link rel="stylesheet" type="text/css" href="css/css.css" media="all"/>
+	<script type="text/javascript">
+
+
+         var imagemOk = 1;
+        function mudarImagem(){
+			if (imagemOk == 1) {
+				window.document.getElementById("imagem").src = "Imagens/halo.jpg";
+				imagemOk = 2;
+			}
+			else if (imagemOk == 2) {
+				window.document.getElementById("imagem").src = "Imagens/forzahorizon.jpg";
+				imagemOk = 3;
+			}
+			else if(imagemOk == 3) {
+				window.document.getElementById("imagem").src ="Imagens/mortalkombat3.jpg";
+				imagemOk = 4;
+			}
+			else {
+			    window.document.getElementById("imagem").src ="Imagens/streefigther.jpg";
+				imagemOk = 1;
+			}
+		}
+	</script>
+
+</head>
+<body>
+	<img id="imagem"  src="Imagens/forzahorizon.jpg" />
+	<table><tr><td><img id="seta" onclick="mudarImagem();" src="Imagens/seta-direita.png" alt="seta"/></td></tr></table>
+</body>
+
+
+</html>

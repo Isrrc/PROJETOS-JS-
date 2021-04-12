@@ -1,0 +1,16 @@
+#formulario {
+    width: 300px;
+    position: absolute;
+    right: 40%;
+    top: 30%;
+    
+}
+
+fieldset {
+    height: 100px;
+    background-color: yellow;
+}
+
+body {
+    background-color: darkturquoise;
+}
